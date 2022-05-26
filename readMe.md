@@ -1,4 +1,4 @@
-## Sistema de Reserva de Equipamentos
+## Loja de Produtos Geek
 
 #### Descrição
 
