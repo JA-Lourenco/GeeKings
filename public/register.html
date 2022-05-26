@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/styles/style.css">
+    <link rel="shortcut icon" href="../src/img/favicon.ico" type="image/x-icon">
+    <title>GeeKings - Cadastro de Produto</title>
+</head>
+<body>
+  <h1 class="text-center margem-h1">Cadastrar Produto</h1>
+  <hr>
+  <main class="cadastrar-produto">
+      <form>
+        <div>
+          <div>
+            <select class="cadastrar-produto">
+              <option disabled selected>Selecionar Categoria</option>
+              <option>Jogos</option>
+              <option>Acessórios</option>
+              <option>Geek</option>
+            </select>
+          </div>
+
+          <hr>
+
+          <div>
+            <p>Produto:</p>
+            <div class="form-floating">
+              <input autocomplete="off" type="text" class="form-control margemB" id="floatingInput" placeholder="Nome">
+              <label for="floatingInput">Nome</label>
+            </div>
+            <div class="form-floating">
+              <input autocomplete="off" type="text" class="form-control margemB" id="floatingInput" placeholder="Preço">
+              <label for="floatingInput">Preço</label>
+            </div>
+            <div class="form-floating">
+              <input autocomplete="off" type="text" class="form-control margemB" id="floatingInput" placeholder="Quantidade">
+              <label for="floatingInput">Quantidade</label>
+            </div>
+          </div>          
+        </div>
+
+        <hr>
+
+        <div>
+          <p>Observação:</p>
+
+          <textarea class="margemB" rows="2" placeholder="Ex: Unidade exclusiva, cor verde..."></textarea>
+        </div>
+
+        <hr>
+
+        <a href="registered.html" class="w-100 btn btn-lg botao">Cadastrar</a>
+        <hr>
+        <a href="home.html" class="w-100 btn btn-lg botao-voltar">&#129092; Voltar para a Página Inicial</a>
+      </form>
+    </main>
+</body>
+</html>

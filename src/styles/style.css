@@ -1,0 +1,130 @@
+/*  #CFFCFF #AAEFDF #9EE37D #63C132 #358600 #D6DBD2 #2C363F */
+
+:root {
+    --black: #000;
+    --white: #FFFFFF;
+    --green: #358600;
+    --light-green: #9EE37D;
+    --green-opaque: #F5FBEF;
+    --red: #840032;
+}
+
+* {
+    transition: all 0.3s ease;
+}
+
+body {
+    background-color: var(--green-opaque);
+}
+
+text {
+    font-weight: 500;
+}
+
+p {
+    font-weight: bold;
+}
+
+select {
+    cursor: pointer;
+    outline: none;
+    border: 0.5px solid var(--green);
+    border-radius: 5px;
+}
+
+textarea {
+    outline: none;
+    border: 0.5px solid var(--green);
+    border-radius: 5px;
+    resize: none;
+}
+
+.content-cliente {
+    margin: auto;
+    width: 1000px;
+}
+
+.form-cliente {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.cadastrar-produto, textarea {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    padding: 15px;
+    margin: auto;
+}
+
+.margemL {
+    margin: 0 20px;
+}
+
+.margem-h1 {
+    margin: 15px;
+}
+
+.margemT {
+    margin-top: 50px;
+}
+
+.margemB {
+    margin-bottom: 15px;
+}
+
+.borda-home {
+    border: 0.5px solid var(--green);
+}
+
+.borda-sair {
+    border: 0.5px solid var(--red);
+}
+
+.botao {
+    color: var(--white);
+    background: var(--green);
+    font-weight: 600;
+}
+
+.botao:hover {
+    color: var(--white);
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.logout-btn {
+    color: var(--white);
+    background: var(--red);
+    font-weight: 600;
+}
+
+.logout-btn:hover {
+    color: var(--white);
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.botao-voltar {
+    color: var(--black);
+    background: var(--green-opaque);
+}
+
+.botao-voltar:hover {
+    text-align: left;
+}
+
+.botao-voltar:focus {
+    box-shadow: none;
+}
+
+.reserva-tam {
+    max-width: 300px;
+}
+
+.form-control:focus {
+    border-color: var(--light-green);
+    box-shadow: 0 0 0 0.25rem rgba(100, 253, 110, 0.205);
+    background-color: var(--white);
+}

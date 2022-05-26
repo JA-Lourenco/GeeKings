@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/styles/style.css">
+    <link rel="shortcut icon" href="../src/img/favicon.ico" type="image/x-icon">
+    <title>GeeKings - Cadastro de Cliente</title>
+</head>
+<body>
+  <h1 class="text-center margem-h1">Cadastrar Cliente</h1>
+  <hr>
+  <main class="content-cliente">
+      <form class="form-cliente">
+        <div class="margem">
+          <div>
+            <p>Dados pessoais:</p>
+            <div class="form-floating">
+              <input autocomplete="off" type="text" class="form-control margemB" id="floatingInput" placeholder="Nome Completo">
+              <label for="floatingInput">Nome Completo</label>
+            </div>
+            <div class="form-floating">
+              <input autocomplete="off" type="text" class="form-control margemB" id="floatingInput" placeholder="RG">
+              <label for="floatingInput">RG</label>
+            </div>
+            <div class="form-floating">
+              <input autocomplete="off" type="text" class="form-control margemB" id="floatingInput" placeholder="CPF">
+              <label for="floatingInput">CPF</label>
+            </div>
+          </div>          
+        </div>
+
+        <div>
+          <p>Endereço:</p>
+
+          <div class="form-floating">
+            <input autocomplete="off" type="text" class="form-control margemB" id="floatingInput" placeholder="CEP">
+            <label for="floatingInput">CEP</label>
+          </div>
+          <div class="form-floating">
+            <input autocomplete="off" type="text" class="form-control margemB" id="floatingInput" placeholder="Logradouro">
+            <label for="floatingInput">Logradouro</label>
+          </div>
+          <div class="form-floating">
+            <input autocomplete="off" type="text" class="form-control margemB" id="floatingInput" placeholder="Complemento">
+            <label for="floatingInput">Complemento</label>
+          </div>
+        </div>
+
+        <div>
+          <p>Contato:</p>
+
+          <div class="form-floating">
+            <input autocomplete="off" type="number" class="form-control margemB" id="floatingInput" placeholder="Telefone">
+            <label for="floatingInput">Telefone</label>
+          </div>
+          <div class="form-floating">
+            <input autocomplete="off" type="email" class="form-control margemB" id="floatingInput" placeholder="E-mail">
+            <label for="floatingInput">E-mail</label>
+          </div>
+
+        </div>
+        
+        <div>
+          <p>Cadastro:</p>
+
+          <div class="form-floating">
+            <input autocomplete="off" type="datetime-local" class="form-control margemB" id="floatingInput" placeholder="Data do Cadastro">
+            <label for="floatingInput">Data do Cadastro</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="Código" required>
+            <label for="floatingInput">Gerar código pessoa</label>
+          </div>
+
+          <a href="registered.html" class="w-100 btn btn-lg botao margemT">Cadastrar</a>
+        </div>
+
+      </form>
+
+      <hr>
+      
+      <a href="home.html" class="w-100 btn btn-lg botao-voltar">&#129092; Voltar para a Página Inicial</a>
+    </main>
+</body>
+</html>
